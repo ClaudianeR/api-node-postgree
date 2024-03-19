@@ -1,7 +1,17 @@
 //Buscar Produtos
 
-GET http://localhost:5000/
+GET http://localhost:5000/produtos
 
 ###
+
+// Criar um produto
+POST http://localhost:5000/produto
+Content-Type: application/json
+
+{
+    "nome": "Produto 1",
+    "preco": 59.90,
+    "off": 15
+}
 
 //
